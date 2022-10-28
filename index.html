@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+    
+</head>
+
+<body>
+    <h1 id="inicio">Conceitos da Computação</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#surgimento">O surgimento da internet</a></li>
+        <li><a href="#html">Como funciona o HTML</a></li>
+        <li><a href="#servidores">O que são servidores?</a></li>
+        <li><a href="#protocolos">Os que são protocolos de Internet?</a></li>
+        <li><a href="#pt-internet">Para que servem os protocolos de Internet?</a></li>
+    </ul>
+
+    <h2 id="surgimento">O surgimento da Internet</h2>
+    <p>Com o intuito de facilitar a troca de informações, pois temiam ataques dos soviéticos, o Departamento de Defesa
+        dos Estados Unidos
+       <strong><u>(ARPA - Advanced Research Projects Agency)</u></strong> criou um sistema de compartilhamento de informações entre pessoas
+        distantes geograficamente, a fim de facilitar as estratégias de guerra.
+        Nesse momento, surge o protótipo da primeira rede de internet, a Arpanet (Advanced Research Projects Agency
+        Network).
+        Assim, no dia 29 de outubro de 1969 foi estabelecida a primeira conexão entre a Universidade da Califórnia e o
+        Instituto de Pesquisa de Stanford.
+        Foi um momento histórico, uma vez que o primeiro e-mail foi enviado.</p>
+
+    <h3 id="html">Como funciona o HTMl</h3>
+    <p>O HTML é uma linguagem de marcação. Estas linguagens são constituídas de códigos que delimitam conteúdos
+        específicos,
+        segundo uma sintaxe própria. O HTML tem códigos para criar paginas na web. Estes códigos que definem o tipo de
+        letra,
+        qual o tamanho, cor, espaçamento, e vários outros aspectos do site.</p>
+
+    <h4 id="servidores">O que são servidores?</h4>
+    <p>Um servidor é um computador equipado com um ou mais processadores, bancos de memória, portas de comunicação,
+        softwares e, ocasionalmente,
+        algum sistema para armazenamento de dados, como hard disks internos ou memórias SSD.
+        O termo servidor também define um recurso dentro de um sistema computacional maior, capaz de processar
+        aplicações, prestar serviços e armazenar dados.
+        Esses sistemas podem ser físicos ou virtuais, estarem instalados local ou remotamente. Normalmente, são
+        escaláveis e possuem alto poder de processamento.
+        Capazes de executar um conjunto específico de programas ou protocolos para fornecer serviços para outras
+        máquinas ou clientes, servidores são equipamentos dedicados a executar aplicações e serviços dentro de uma rede
+        LAN ou WAN.</p>
+
+    <h5 id="protocolos">Os que são protocolos de Internet?</h5>
+    <p>Resumidamente, protocolos são regras definidas e precisas de como algo deve acontecer. Protocolos de Internet,
+        são portanto, o conjunto de regras de como as coisas devem acontecer na Internet.
+        Mas não exatamente quaisquer coisas.
+        Quando falamos dos protocolos de Internet, estamos nos referindo aos principais serviços que usamos, como o
+        acesso a um site, o download de um arquivo ou o acesso à conta de e-mail, para citar apenas algumas situações
+        corriqueiras.
+        Sob uma ótica mais rigorosa, antes de serem protocolos de Internet, são protocolos de rede.
+        E a Internet e seu funcionamento, nada mais é do que muitas redes conectadas entre si.</p>
+
+    <h6 id="pt-internet">Para que servem os protocolos de Internet?</h6>
+    <small><a href="#inicio">Inicio</a></small>
+    <p>Os protocolos de Internet existem e foram criados para possibilitar a comunicação entre dois pontos da rede – ou
+        dois dispositivos – independente de fatores como localização geográfica, fabricantes dos dispositivos,
+        características pessoais dos usuários ou outros fatores de diferenciação, de forma sempre igual, segura e
+        eficiente.</p>
+
+    <p> Assim, não importa se você está usando um smartphone Android de última geração ou um desktop de 10 anos de uso
+        com sistema operacional Linux instalado, os protocolos devem garantir que ambos os dispositivos serão capazes de
+        efetuar algum tipo de conexão e troca de dados.
+        Entre outras coisas, esse conjunto de regras estipula que a “comunicação” entre dois dispositivos tão
+        diferentes, ocorra exatamente da mesma maneira.</p>
+
+    <p> Assim, por exemplo, quando uma mensagem de e-mail é enviada usando-se o SMTP (Simple Mail Transfer Protocol), de
+        acordo com o conjunto de regras que o compõe, os servidores de e-mail envolvidos
+        realizam um “aperto de mãos” – chamado handshake – e que começa com um HELO ou um EHLO (Extended HELO) e que
+        assim como o “alô” das ligações telefônicas, é quando o remetente se apresenta ao servidor de SMTP,
+        informando seu nameserver (nome do servidor) e que por sua vez é um FQDN (Fully Qualified Domain Name). </p>
+
+    <p> Sim, servidores de e-mail têm um nome baseado em um domínio. Assim, o nameserver de um servidor de e-mail da
+        HostMídia pode ser por exemplo: <strong><mark>email125.hostmidia.com.br</mark></strong>
+        Já o HELO extendido (EHLO), informa que ele é apto a instruções SMTP extendidas, ou em outras palavras, um
+        conjunto mais amplo de comandos SMTP do que aquele que foi inicialmente definido quando o padrão foi criado.</p>
+
+    <p> Durante essa verdadeira conversa entre o remetente e o servidor que vai receber a mensagem de e-mail,
+        informações diversas são trocadas, sendo que o servidor de destino deve ser informado pelo de envio, a cada
+        porção dos dados que é transferida, qual a natureza do dado informado.
+        Assim, quem envia diz em uma sequência definida qual endereço do destinatário, do remetente, os dados que
+        compõem a mensagem, quando terminou o envio dos dados, entre outras ações. </p>
+
+    <p> Cada mensagem de e-mail enviada ou recebida no mundo por meio desse protocolo, segue rigorosamente os mesmos
+        passos, quaisquer que sejam os servidores envolvidos nessa troca. </p>
+
+    <p> Se por acaso, isso não ocorre, tem-se um erro de SMTP. É quando por exemplo, o endereço IP ou o nameserver do
+        remetente não tem autorização para entregar mensagens de e-mail do remetente, informação que consta no campo SPF
+        das zonas de DNS do domínio remetente. </p>
+
+    <p> E como dissemos antes, essa verificação de SPF durante o envio, garante a segurança, pois atesta que o servidor
+        que está realizando o envio, tem autorização de quem detém o domínio, para fazê-lo.
+        Ou seja, protocolos entre outras coisas, são importantes para segurança e método para se fazer as coisas em um
+        ambiente tão complexo quanto é a Internet.</p>
+
+
+        <blockquote cite="https://www.hostmidia.com.br/blog/protocolos-de-internet/">
+           <i>A Internet está presente em tantas situações do nosso quotidiano, que já nem pensamos no que está por trás, o que ela envolve e que permite que a “mágica” aconteça.</i>
+
+        </blockquote>
+
+    <hr />
+
+    <footer class="rodape">
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
